@@ -1,0 +1,31 @@
+INFO:root:Starting the ETL process...
+INFO:root:Dataset downloaded successfully.
+INFO:root:Dataset cleaned successfully and saved.
+INFO:azure.core.pipeline.policies.http_logging_policy:Request URL: 'https://electricitydatastore.blob.core.windows.net/cleaned-data/electricity_cleaned.csv'
+Request method: 'PUT'
+Request headers:
+    'Content-Length': '286032'
+    'x-ms-blob-type': 'REDACTED'
+    'x-ms-version': 'REDACTED'
+    'Content-Type': 'application/octet-stream'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.24.0 Python/3.10.0 (Windows-10-10.0.19045-SP0)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': 'b627fe17-c15d-11ef-a5c9-049226707d6a'
+    'Authorization': 'REDACTED'
+A body is sent with the request
+INFO:azure.core.pipeline.policies.http_logging_policy:Response status: 201
+Response headers:
+    'Content-Length': '0'
+    'Content-MD5': 'REDACTED'
+    'Last-Modified': 'Mon, 23 Dec 2024 18:42:45 GMT'
+    'ETag': '"0x8DD2381973A19DD"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '44335498-701e-0045-526a-550bd2000000'
+    'x-ms-client-request-id': 'b627fe17-c15d-11ef-a5c9-049226707d6a'
+    'x-ms-version': 'REDACTED'
+    'x-ms-content-crc64': 'REDACTED'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'Date': 'Mon, 23 Dec 2024 18:42:44 GMT'
+INFO:root:File 'electricity_cleaned.csv' uploaded successfully to Azure Blob Storage.
+INFO:root:ETL process completed successfully.
